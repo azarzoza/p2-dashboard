@@ -1,6 +1,6 @@
 /*Body*/
 :root {
-	background: url("../img/symphony.png");
+	background-color: #00B4FC;
 	padding: 20px;
 	background-attachment: fixed;
 	margin: auto;
@@ -18,46 +18,43 @@
 /*Headers*/
 
 h1 {
-	font-family: 'Poiret One', cursive;
-	color: #407CC9;
+	font-family: 'Allura', cursive;
+	color: #17F9FF;
 	padding: 5px 5px;
 	text-align: center;
+	font-size: 2em;
 	
 	
 }
 
 h2 {
-	font-family: 'Pacifico', cursive;
-	color: #90C0C0;
+	font-family: 'Droid Sans', sans-serif;
+	color: #005BC5;
 	padding: 5px 5px;
 }
 
-h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #9794D2;
 
-}
 
 
 /*Body text*/
 
 p {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Forum', cursive;
 	line-height: 1.2em;
 	font-size: 1.2em;
-	color: #181818;
+	color: #636363;
 }
 
 .one {
-	font-family: 'Poiret One', cursive;
-	font-size: .75em;
+	font-family: 'Allura', cursive;
+	font-size: 1em;
 	
 
 
 }
 
 .two {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Droid Sans', sans-serif;
 	font-size: .75em;
 
 
@@ -65,7 +62,7 @@ p {
 
 
 .three {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Forum', cursive;
 	font-size: .75em;
 
 }
@@ -77,41 +74,16 @@ aside {
 
 a:link, 
 a:visited {
+	font-family: 'Forum', cursive;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #90C0C0;
+	color: #00B4FC;
 }
 
 a:hover, 
 a:active {
-	background: #9794D2;
-}
-
-
-
-
-
-
-/* Layout for Style Tile*/
-
-
-
-.logo {
-	width: 200px;
-	height: 300px;
-	position: inline-block;
-	margin: 20px 20px;
-	
-	
-}
-
-.logo:hover {
-	transition-property: opacity;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    opacity: .25;;
-	
-
+	font-family: 'Forum', cursive;
+	color: #17F9FF;
 }
 
 
@@ -126,7 +98,7 @@ a:active {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 2px solid #fff;
 	float: left;
 	margin: 20px 10px;
 	height: 50px;
@@ -147,19 +119,19 @@ a:active {
 /*Color Pallette*/
 
 .color-1 {
-	background: #407CC9;
+	background: #17F9FF;
 }
 
 .color-2 {
-	background: #90C0C0;
+	background: #005BC5;
 }
 
 .color-3 {
-	background: #9794D2;
+	background: #00B4FC;
 }
 
 .color-4 {
-	background: #181818;
+	background: #636363;
 }
 
 
