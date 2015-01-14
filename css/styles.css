@@ -1,17 +1,13 @@
 /*Body*/
 :root {
-	background-color: #00B4FC;
+	background-image: url('../img/mooning.png');
 	padding: 20px;
 	background-attachment: fixed;
 	margin: auto;
+	border: 7px solid #fff;
 	
 }
 
-  
-.box:hover {
-	opacity: .75;
-	cursor: crosshair;
-}  
 
 
 
@@ -19,10 +15,10 @@
 
 h1 {
 	font-family: 'Allura', cursive;
-	color: #17F9FF;
-	padding: 5px 5px;
+	color: #3BF6FC;
+	padding: 4px 4px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.75em;
 	
 	
 }
@@ -30,7 +26,8 @@ h1 {
 h2 {
 	font-family: 'Droid Sans', sans-serif;
 	color: #005BC5;
-	padding: 5px 5px;
+	padding: 4px 4px;
+	font-size: 1.75em;
 }
 
 
@@ -98,7 +95,7 @@ a:active {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	float: left;
 	margin: 20px 10px;
 	height: 50px;
@@ -109,7 +106,7 @@ a:active {
 .colors, .patterns {
 	margin: 20px 20px;
 	float: left;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 
 }
 
@@ -139,16 +136,16 @@ a:active {
 /*Textures*/
 
 .pattern-1 {
-background-image: url("../img/pattern1.jpg");
+background-image: url("../img/mooning.png");
 
 }
 
 .pattern-2 {
-background-image: url("../img/symphony.png");
+background-image: url("../img/plaid.png");
 	}
 
 .pattern-3 {
-background-image: url("../img/green_gobbler.png");
+background-image: url('../img/glitter.jpg');
 }
 
 /* Show Grid */
