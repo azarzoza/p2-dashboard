@@ -1,0 +1,185 @@
+/*Body*/
+:root {
+	background: url("../img/symphony.png");
+	padding: 20px;
+	background-attachment: fixed;
+	margin: auto;
+	
+}
+
+  
+.box:hover {
+	opacity: .75;
+	cursor: crosshair;
+}  
+
+
+
+/*Headers*/
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	color: #407CC9;
+	padding: 5px 5px;
+	text-align: center;
+	
+	
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	color: #90C0C0;
+	padding: 5px 5px;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #9794D2;
+
+}
+
+
+/*Body text*/
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	color: #181818;
+}
+
+.one {
+	font-family: 'Poiret One', cursive;
+	font-size: .75em;
+	
+
+
+}
+
+.two {
+	font-family: 'Pacifico', cursive;
+	font-size: .75em;
+
+
+}
+
+
+.three {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: .75em;
+
+}
+
+aside {
+	text-align: center;
+}
+/*Links*/
+
+a:link, 
+a:visited {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #90C0C0;
+}
+
+a:hover, 
+a:active {
+	background: #9794D2;
+}
+
+
+
+
+
+
+/* Layout for Style Tile*/
+
+
+
+.logo {
+	width: 200px;
+	height: 300px;
+	position: inline-block;
+	margin: 20px 20px;
+	
+	
+}
+
+.logo:hover {
+	transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    opacity: .25;;
+	
+
+}
+
+
+
+
+
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 20px 10px;
+	height: 50px;
+	width: 50px;
+
+}
+
+.colors, .patterns {
+	margin: 20px 20px;
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.color {
+	float: left;
+}
+/*Color Pallette*/
+
+.color-1 {
+	background: #407CC9;
+}
+
+.color-2 {
+	background: #90C0C0;
+}
+
+.color-3 {
+	background: #9794D2;
+}
+
+.color-4 {
+	background: #181818;
+}
+
+
+
+/*Textures*/
+
+.pattern-1 {
+background-image: url("../img/pattern1.jpg");
+
+}
+
+.pattern-2 {
+background-image: url("../img/symphony.png");
+	}
+
+.pattern-3 {
+background-image: url("../img/green_gobbler.png");
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
