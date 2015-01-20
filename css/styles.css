@@ -69,15 +69,25 @@ aside {
 }
 /*Links*/
 
-a:link, 
-a:visited {
+a:link {
 	font-family: 'Forum', cursive;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #00B4FC;
 }
 
-a:hover, 
+a:visited {
+	font-family: 'Forum', cursive;
+	color: #005BC5;
+}
+
+a:hover {
+	font-family: 'Forum', cursive;
+	
+	color: #17F9FF;
+}
+
+ 
 a:active {
 	font-family: 'Forum', cursive;
 	color: #17F9FF;
